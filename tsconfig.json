@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "outDir": "./dist",
+    "rootDir": ".",
+    "esModuleInterop": true,
+    "types": ["node", "@wdio/globals/types", "@wdio/cucumber-framework"]
+  },
+  "include": ["features/**/*.ts"]
+}
